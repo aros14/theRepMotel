@@ -2,6 +2,8 @@
 
 body {
   background-color: #A3C6B5;
+  font-family: 'Barlow', 'Arial', sans-serif;
+}
 
 h1 {
   font-family: 'Barlow', 'Arial', sans-serif;
@@ -40,6 +42,36 @@ h1 {
   background-color: #c89e66; /* Add your desired hover background color */
 }
 
-.home-content h1 {
+h1 {
   padding: 15px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-text h2 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.home-text {
+  flex: 1;
+  padding: 15px;
+  margin-bottom: 200px;
+  padding: 30px;
+}
+
+.home-image {
+  max-width: 50%;
+  justify-content: right;
+}
+
+.home-image img {
+  max-width: 90%;
+  height: auto;
+  padding: 10px;
 }
