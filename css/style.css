@@ -39,3 +39,7 @@ h1 {
 .navbar a:hover {
   background-color: #c89e66; /* Add your desired hover background color */
 }
+
+.home-content h1 {
+  padding: 15px;
+}
